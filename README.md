@@ -1,14 +1,11 @@
 # LittleLemon
 This project is a Django-based REST API for managing menu items and table bookings at Little Lemon restaurant.
 
-## API Endpoints:
-- **Bookings API:**  
-  GET, POST - `/api/bookings/`  
-  GET, PUT, DELETE - `/api/bookings/<id>/`  
+## API Endpoints: 
 
 - **Menu API:**  
-  GET, POST - `/api/menu-items/`  
-  GET, PUT, DELETE - `/api/menu-items/<id>/`  
+  GET, POST - `/restaurant/menu/`  
+  GET, PUT, DELETE - `/restaurant/menu/<id>/`  
 
 - **Authentication (Djoser):**  
   Register: `POST /auth/users/`  
